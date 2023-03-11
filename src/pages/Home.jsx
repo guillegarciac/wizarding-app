@@ -26,7 +26,7 @@ const Home = () => {
           <div key={elem.id}>
             <h2>{elem.name}</h2>
             <p>{elem.founder}</p>
-            <Link to={`/houses/${elem.id}`}>See House</Link>
+            <Link to={`/house/${elem.id}`}>See House</Link>
 
           </div>
         )
